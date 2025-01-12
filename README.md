@@ -39,6 +39,6 @@ Contributions are welcome! Please submit issues or pull requests to help improve
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.  
 
 ## Acknowledgments  
-- [Retrieval-based Voice Conversion (RVC)](https://github.com/some-repo)  
+- [Retrieval-based Voice Conversion (RVC)](https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI.git)  
 - The open-source community for voice conversion research and development.  
 
