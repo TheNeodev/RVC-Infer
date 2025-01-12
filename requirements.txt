@@ -9,7 +9,7 @@ pydub
 soundfile
 praat-parselmouth
 pyworld
-torchcrepe==0.0.20
+torchcrepe==0.0.23
 
 # Machine Learning and Frameworks
 fairseq
