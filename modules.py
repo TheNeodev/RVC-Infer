@@ -8,15 +8,15 @@ import soundfile as sf
 import torch
 from io import BytesIO
 
-from infer.lib.audio import load_audio, wav2
-from infer.lib.infer_pack.models import (
+from libs.audio import load_audio, wav2
+from libs.infer_pack.models import (
     SynthesizerTrnMs256NSFsid,
     SynthesizerTrnMs256NSFsid_nono,
     SynthesizerTrnMs768NSFsid,
     SynthesizerTrnMs768NSFsid_nono,
 )
-from infer.modules.vc.pipeline import Pipeline
-from infer.modules.vc.utils import *
+from pipeline import Pipeline
+from utils import *
 
 
 class VC:
