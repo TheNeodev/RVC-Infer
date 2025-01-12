@@ -26,7 +26,6 @@ def arg_parse() -> tuple:
     parser.add_argument("--model_name", type=str, help="store in assets/weight_root")
     parser.add_argument("--index_rate", type=float, default=0.66, help="index rate")
     parser.add_argument("--device", type=str, help="device")
-    parser.add_argument("--is_half", type=bool, help="use half -> True")
     parser.add_argument("--filter_radius", type=int, default=3, help="filter radius")
     parser.add_argument("--resample_sr", type=int, default=0, help="resample sr")
     parser.add_argument("--rms_mix_rate", type=float, default=1, help="rms mix rate")
@@ -43,7 +42,6 @@ def main():
     args = arg_parse()
     config = Config()
     config.device = args.device if args.device else config.device
-    config.is_half = args.is_half if args.is_half else config.is_half
     vc = VC(config)
     vc.get_vc(args.model_name)
     audios = os.listdir(args.input_path)
