@@ -1,6 +1,4 @@
-Here's a detailed README for your repository **RVC-Infer**. You can customize it as needed:  
-
----
+readme by GPT-4
 
 # RVC Infer  
 
