@@ -18,7 +18,6 @@ def arg_parse() -> argparse.Namespace:
     parser.add_argument("--model_name", type=str, help="model name (stored in assets/weight_root)", required=True)
     parser.add_argument("--index_rate", type=float, default=0.66, help="index rate")
     parser.add_argument("--device", type=str, help="device (e.g., cuda or cpu)")
-    parser.add_argument("--is_half", type=bool, help="use half precision (True or False)", default=False)
     parser.add_argument("--filter_radius", type=int, default=3, help="filter radius")
     parser.add_argument("--resample_sr", type=int, default=0, help="resample sampling rate")
     parser.add_argument("--rms_mix_rate", type=float, default=1, help="RMS mix rate")
@@ -34,8 +33,7 @@ def main():
 
     config = Config()
     config.device = args.device if args.device else config.device
-    config.is_half = args.is_half if args.is_half else config.is_half
-
+    
     vc = VC(config)
 
     # Add a check for the model name
