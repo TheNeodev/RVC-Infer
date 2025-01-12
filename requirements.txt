@@ -1,33 +1,41 @@
-aria2
-numba
+# Core Libraries
 numpy
 scipy
+numba
+
+# Audio Processing
 librosa
-fairseq
-faiss-cpu
-gradio==3.34.0
 pydub
 soundfile
-ffmpeg-python
-tensorboardX
-json5
-Markdown
 praat-parselmouth
-tensorboard
-tqdm
+pyworld
+torchcrepe==0.0.20
+
+# Machine Learning and Frameworks
+fairseq
+faiss-cpu
 onnxruntime; sys_platform == 'darwin'
 onnxruntime-gpu; sys_platform != 'darwin'
-torchcrepe==0.0.20
-fastapi
+tensorboard
+tensorboardX
 torchfcpe
+
+# Model Deployment and API
+gradio==3.34.0
+fastapi
+
+# Media and File Handling
+aria2
+ffmpeg-python
 ffmpy
-python-dotenv
 av
-pyworld
 yt-dlp
+
+# Utilities and Extras
+tqdm
+json5
+Markdown
+python-dotenv
+
+# Specialized Libraries
 audio-separator[gpu]
-
-
-
-
-
