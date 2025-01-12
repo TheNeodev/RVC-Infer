@@ -10,8 +10,8 @@ from torch import nn
 from torch.nn import AvgPool1d, Conv1d, Conv2d, ConvTranspose1d
 from torch.nn import functional as F
 from torch.nn.utils import remove_weight_norm, spectral_norm, weight_norm
-from libs.infer_pack import attentions, commons, modules
-from libs.infer_pack.commons import get_padding, init_weights
+from libs.infer_packs import attentions, commons, modules
+from libs.infer_packs.commons import get_padding, init_weights
 
 has_xpu = bool(hasattr(torch, "xpu") and torch.xpu.is_available())
 
