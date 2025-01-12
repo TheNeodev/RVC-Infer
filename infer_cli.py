@@ -32,11 +32,11 @@ def main():
     load_dotenv()
     args = arg_parse()
 
-    #config = Config()
-    #config.device = args.device if args.device else config.device
-    #config.is_half = args.is_half if args.is_half else config.is_half
+    config = Config()
+    config.device = args.device if args.device else config.device
+    config.is_half = args.is_half if args.is_half else config.is_half
 
-    vc = VC()
+    vc = VC(config)
 
     # Add a check for the model name
     if not args.model_name:
