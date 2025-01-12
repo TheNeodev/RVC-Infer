@@ -8,6 +8,9 @@ RVC-Infer is a streamlined inference tool for **Retrieval-based Voice Conversion
 - Efficient inference for RVC voice conversion models.  
 - Support for high-quality audio outputs.  
 - Simple, customizable configuration.  
+- Support RVC V1 and V2 models.
+
+
 
 ## Installation  
 
