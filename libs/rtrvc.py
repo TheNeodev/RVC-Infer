@@ -21,7 +21,7 @@ now_dir = os.getcwd()
 sys.path.append(now_dir)
 from multiprocessing import Manager as M
 
-from configs.config import Config
+from config import Config
 
 # config = Config()
 
@@ -316,7 +316,7 @@ class RVC:
 
             printt("Loading rmvpe model")
             self.model_rmvpe = RMVPE(
-                "assets/rmvpe/rmvpe.pt",
+                "assets/rvc/rmvpe.pt",
                 is_half=self.is_half,
                 device=self.device,
                 use_jit=self.config.use_jit,
