@@ -30,12 +30,8 @@ ffmpeg-python
 ffmpy
 av
 yt-dlp
+audio-separator[gpu]==0.28.5
 
 # Utilities and Extras
 tqdm
-json5
-Markdown
 python-dotenv
-
-# Specialized Libraries
-audio-separator[gpu]
