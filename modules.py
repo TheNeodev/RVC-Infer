@@ -9,7 +9,7 @@ import torch
 from io import BytesIO
 
 from libs.audio import load_audio, wav2
-from libs.infer_pack.models import (
+from libs.infer_packs.models import (
     SynthesizerTrnMs256NSFsid,
     SynthesizerTrnMs256NSFsid_nono,
     SynthesizerTrnMs768NSFsid,
