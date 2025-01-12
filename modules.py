@@ -15,7 +15,7 @@ from libs.infer_packs.models import (
     SynthesizerTrnMs768NSFsid,
     SynthesizerTrnMs768NSFsid_nono,
 )
-from pipeline import Pipeline
+from vc_infer_pipeline import Pipeline
 from utils import *
 
 
