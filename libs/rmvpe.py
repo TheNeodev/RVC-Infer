@@ -4,7 +4,7 @@ from typing import List, Optional, Tuple
 import numpy as np
 import torch
 
-from infer.lib import jit
+from libs import jit
 
 try:
     # Fix "Torch not compiled with CUDA enabled"
