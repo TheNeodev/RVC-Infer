@@ -1,8 +1,8 @@
 ---
 title: RVC
-emoji: 🌖
-colorFrom: yellow
-colorTo: pink
+emoji: 💻
+colorFrom: blue
+colorTo: blue
 sdk: gradio
 sdk_version: 5.12.0
 app_file: app.py
